@@ -1,0 +1,30 @@
+.slider-wrap{
+    /*
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    */
+    position: absolute;
+    left: 10%;
+    top:30%;
+    height: 80%;
+    width: 200px;
+}
+.slider-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 2px;
+    pointer-events: none;
+    transition: 0s ease-in;
+}
+.slider{
+    height: 100%;
+    padding: 3rem;
+    align-items: center;
+
+}
